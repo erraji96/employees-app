@@ -1,0 +1,7 @@
+{
+  "name": "employees-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

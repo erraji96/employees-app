@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page d'accueil</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="center">
+    <button ion-button large block round outline (click)="showEmployeesFromApi()">
+      Liste des salaries (Via API)
+    </button>
+  </div>
+  <div class="center">
+    <button ion-button large block round outline (click)="showEmployeesFromDB()">
+      Liste des salaries (Local)
+    </button>
+  </div>
+  <div class="center">
+    <button ion-button large block round outline (click)="synchronizeDatabase()">
+      Synchroniser la base locale
+    </button>
+  </div>
+</ion-content>
